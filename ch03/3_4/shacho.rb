@@ -1,12 +1,5 @@
-require_relative './tanto'
-require_relative './shunin'
-require_relative './bucho'
+require_relative 'shain'
+require_relative 'tanto'
 
-tanto = Tanto.new('Aさん')
-tanto.kiritsu
-
-shunin = Shunin.new('Bさん')
-shunin.kiritsu
-
-bucho = Bucho.new('Cさん')
-bucho.kiritsu
+shain = Tanto.new
+shain.standup
