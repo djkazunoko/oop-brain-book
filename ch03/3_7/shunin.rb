@@ -2,7 +2,7 @@ require_relative './shain'
 
 class Shunin < Shain
   def standup
-    puts '主任は素早く立ちました。'
+    '主任は素早く立ちました。'
   end
 
   def calculate_salary(kihonkyu)
